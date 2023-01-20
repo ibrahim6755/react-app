@@ -5,7 +5,7 @@ const Slider = ({ sliders }) => {
     return (
         <div className='slider-wrapper'>
             {
-                sliders.map((slider,index) => {
+                sliders.map((slider, index) => {
                     return (
                         <div key={index} id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner">

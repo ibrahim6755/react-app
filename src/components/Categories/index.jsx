@@ -7,7 +7,7 @@ const Categories = ({ categories }) => {
       <h2 className={styles.categoryHeading}>Browse Categories</h2>
       <div className="row px-5 py-3 mt-4">
         {
-          categories.map((category,index) => {
+          categories.map((category, index) => {
             return (
               <img key={index} className="col-md-2" src={category.catImg}></img>
             )

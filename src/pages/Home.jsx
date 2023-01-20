@@ -6,14 +6,14 @@ import Selling from '../components/Selling'
 import Slider from '../components/Slider';
 import { products, categories, sliders } from '../data/data'
 
- const Home = () => {
+const Home = () => {
   return (
     <div>
-      <Header/>
-      <Slider sliders={sliders}/>
-      <Categories categories={categories}/>
-      <Selling products={products}/>
-      <Footer/>
+      <Header />
+      <Slider sliders={sliders} />
+      <Categories categories={categories} />
+      <Selling products={products} />
+      <Footer />
     </div>
   )
 }
