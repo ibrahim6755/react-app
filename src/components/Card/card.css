@@ -1,0 +1,51 @@
+.card{
+    border: 2px;
+    border-radius: 14px;
+    padding: 12px;
+    background-color: #1C1816;
+    color: #fff;
+}
+.h-95{
+    height: 95%;
+}
+.card .card-text{
+    color: #D4D4D4;
+    background: transparent;
+    text-align: justify;
+    font-size: 0.9rem;
+}
+.card .card-title{
+    background: transparent;
+    font-weight: 700;
+}
+.card img{
+    width: 100%;
+    display: block;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    transition: transform 0.6s ease-in-out;
+}
+.card img:hover{
+    transform: scale(1.07,1.07);
+    width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+}
+.card .bucket{
+    color: #fff;
+    background-color: #E4002B;
+    font-weight: 700;
+    width: 135px;
+    height: 40px;
+    padding: 6px 3px;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+.card .bucket:hover{
+    color: #fff;
+    background-color: #8d001a;
+}
