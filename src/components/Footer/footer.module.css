@@ -1,16 +1,16 @@
-.social-media{
+.socialMedia{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.w-46{
+.w46{
     width: 46px;
 }
-.logo img{
+.logoImg{
     width: 90px;
 }
-.find-us-txt{
+.findUsTxt{
     color: #fff;
     font-size: 18px;
     font-weight: 600;
