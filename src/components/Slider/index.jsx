@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from '../Slider/slider.module.css'
 
 const Slider = ({ sliders }) => {
     return (
@@ -16,6 +17,7 @@ const Slider = ({ sliders }) => {
                     )
                 })
             }
+
         </div>
     )
 }
