@@ -8,24 +8,24 @@
 .h-95{
     height: 95%;
 }
-.card .card-text{
+.cardText{
     color: #D4D4D4;
     background: transparent;
     text-align: justify;
     font-size: 0.9rem;
 }
-.card .card-title{
+ .cardTitle{
     background: transparent;
     font-weight: 700;
 }
-.card img{
+.cardImg{
     width: 100%;
     display: block;
     overflow-clip-margin: content-box;
     overflow: clip;
     transition: transform 0.6s ease-in-out;
 }
-.card img:hover{
+.cardImgHover:hover{
     transform: scale(1.07,1.07);
     width: 100%;
 }
@@ -34,7 +34,7 @@
     align-items: center;
     justify-content:baseline;
 }
-.card .bucket{
+.cardBucket{
     color: #fff;
     background-color: #E4002B;
     font-weight: 700;
@@ -45,7 +45,7 @@
     border-radius: 8px;
 }
 
-.card .bucket:hover{
+.cardBucketHover:hover{
     color: #fff;
     background-color: #8d001a;
 }
