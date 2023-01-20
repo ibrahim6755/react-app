@@ -7,9 +7,9 @@ const Categories = ({ categories }) => {
       <h2 className='category-heading'>Browse Categories</h2>
       <div className="row px-5 py-3 mt-4">
         {
-          categories.map(category => {
+          categories.map((category,index) => {
             return (
-              <img className="col-md-2" src={category.catImg}></img>
+              <img key={index} className="col-md-2" src={category.catImg}></img>
             )
 
           })
