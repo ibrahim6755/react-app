@@ -12,7 +12,7 @@ function Card({ product }) {
                     <p className={` mb-4 ${styles.cardText}`}>{product.description}</p>
                     <div className={styles.flex}>
                         <h3 ><span className="pe-2">Rs</span>{product.price}</h3>
-                        <a href="#" className={`btn  w-100 ms-4 ${styles.cardBucket} ${styles.cardBucketHover}`}>Add to bucket</a>
+                        <Link to="#" className={`btn  w-100 ms-4 ${styles.cardBucket} ${styles.cardBucketHover}`}>Add to bucket</Link>
                     </div>
                 </div>
             </div>

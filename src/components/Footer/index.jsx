@@ -6,6 +6,7 @@ import insta from '../../assets/img/insta.png'
 import face from '../../assets/img/face.png'
 import app from '../../assets/img/app.png'
 import googlestore from '../../assets/img/googleStore.png'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -14,13 +15,13 @@ const Footer = () => {
             <div className="row mt-5 py-5 ">
                 <div className={styles.socialMedia}>
                     <div className=" me-5">
-                        <a href=""><img className={styles.logoImg} src={logo} alt="" /></a>
+                        <Link to=""><img className={styles.logoImg} src={logo} alt="" /></Link>
                     </div>
                     <div className={` ms-4 ${styles.icons}`}>
                         <p className={styles.findUsTxt}>Find us on</p>
-                        <a href=""><img className={styles.w46} src={you} alt="" /></a>
-                        <a href=""><img className={` ${styles.w46} ${styles.mX}`} src={insta} alt="" /></a>
-                        <a href=""><img className={styles.w46} src={face} alt="" /></a>
+                        <Link to=""><img className={styles.w46} src={you} alt="" /></Link>
+                        <Link to=""><img className={` ${styles.w46} ${styles.mX}`} src={insta} alt="" /></Link>
+                        <Link to=""><img className={styles.w46} src={face} alt="" /></Link>
                     </div>
                 </div>
             </div>
