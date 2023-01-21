@@ -6,6 +6,7 @@ import pickup from '../../assets/img/pickup.png'
 import header from '../Header/header.css'
 const Header = () => {
     return (
+        
         <>
             <div className="header-wrapper py-3 mb-3 sticky-top">
                 <div className="left-nav">

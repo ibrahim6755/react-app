@@ -147,3 +147,28 @@
     outline: 0;
     box-shadow: none;
 }
+
+
+/*-----------------------media quiery------------------------------*/
+@media (max-width: 991.98px){
+
+    .left-nav{
+        display: flex;
+        align-items: center;
+    }
+    .left-nav .logo img {
+        cursor: pointer;
+        width: 90%;
+    }
+    .header-wrapper {
+        display: block;
+        background-color: #000;
+    }
+    
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+}
+

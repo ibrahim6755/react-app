@@ -9,10 +9,9 @@ const Selling = ({ products }) => {
       <div className="row px-0 py-2 mt-4">
         {
           products.map((product, index) => {
-            return <div key={index} className="col-md-3">
+            return <div key={index} className="col-md-6 col-sm-6 col-lg-4 col-xl-3">
               <Card product={product} />
             </div>
-
           })
         }
       </div>

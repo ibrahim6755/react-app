@@ -7,6 +7,9 @@
 .w46{
     width: 46px;
 }
+.mX{
+    margin: 10px 12px;
+}
 .logoImg{
     width: 90px;
 }
@@ -33,3 +36,10 @@
     font-weight: 700;
     color: #fff;
 }
+@media (max-width: 398.98px) { 
+
+
+    .mX{
+        margin:5px 0;
+    }
+ }

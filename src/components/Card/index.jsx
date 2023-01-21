@@ -3,7 +3,7 @@ import styles from './card.module.css'
 function Card({ product }) {
     return (
         <>
-            <div className={`h-95 w-100 ${styles.card} ${styles.cPointer}`}>
+            <div className={`h-95 w-100 ${styles.card} ${styles.cPointer} mt-3`}>
                 <img src={product.img} className={`card-img-top ${styles.cardImg} ${styles.cardImgHover}`} alt="..." />
                 <div className="card-body" >
                     <h4 className={styles.cardTitle}>{product.title}</h4>
@@ -16,6 +16,7 @@ function Card({ product }) {
             </div>
         </>
     )
+    
 }
 
 

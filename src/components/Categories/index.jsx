@@ -9,12 +9,11 @@ const Categories = ({ categories }) => {
         {
           categories.map((category, index) => {
             return (
-              <img key={index} className="col-md-2" src={category.catImg}></img>
+              <img className="col-md-2 col-sm-4 categoryImg" key={index} src={category.catImg}></img>
             )
 
           })
         }
-
       </div>
     </div>
   )

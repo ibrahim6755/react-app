@@ -3,3 +3,13 @@
     background: transparent;
     font-size: 30px;
 }
+
+/*-----------------------media quiery------------------------------*/
+
+@media (max-width: 991.98px){
+    .categoryHeading{
+        color: #D4D4D4;
+        background: transparent;
+        font-size: 30px;
+    }
+}

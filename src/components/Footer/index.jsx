@@ -16,14 +16,15 @@ const Footer = () => {
                     <div className=" me-5">
                         <a href=""><img className={styles.logoImg} src={logo} alt="" /></a>
                     </div>
-                    <div className="icons ms-4">
+                    <div className={` ms-4 ${styles.icons}`}>
                         <p className={styles.findUsTxt}>Find us on</p>
                         <a href=""><img className={styles.w46} src={you} alt="" /></a>
-                        <a href=""><img className={`mx-4 ${styles.w46}`} src={insta} alt="" /></a>
+                        <a href=""><img className={` ${styles.w46} ${styles.mX}`} src={insta} alt="" /></a>
                         <a href=""><img className={styles.w46} src={face} alt="" /></a>
                     </div>
                 </div>
             </div>
+
             <div className="row ">
                 <div className="col-md-3">
                     <ul>
@@ -47,7 +48,7 @@ const Footer = () => {
                         <li className={styles.listStyle}><a className={`${styles.textDecor} ${styles.aHover}`} href="">Terms & Conditions</a></li>
                     </ul>
                 </div>
-                <div className="col-md-3">
+                <div className={`col-md-3 col-sm-6 ${styles.download}`}>
                     <a className={`${styles.textDecor}`} href=""><img className='mb-4' src={app} alt="" /></a>
                     <a className={`${styles.textDecor}`} href=""><img src={googlestore} alt="" /></a>
                 </div>

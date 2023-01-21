@@ -3,3 +3,12 @@
     background: transparent;
     font-size: 30px;
 }
+
+/***************media query************************/
+@media (max-width: 991.98px){
+  .sellingHeading{
+      color: #D4D4D4;
+      background: transparent;
+      font-size: 30px;
+  }
+}
