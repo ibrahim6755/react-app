@@ -6,13 +6,12 @@ const Categories = ({ categories }) => {
 
     <div className='categories-wrapper my-5'>
       <h2 className={styles.categoryHeading}>Browse Categories</h2>
-      <div className="row px-5 py-3 mt-4">
+      <div className={`row px-0 py-3 mt-4 ${styles.inlineBlock}`}>
         {
           categories.map((category, index) => {
             return (
-             <Link to="/category"><img className="col-md-2 col-sm-4 categoryImg" key={index} src={category.catImg}></img></Link>
+             <Link to="/category"><img className={`col-md-2 col-sm-4 ${styles.categoryImg}`} key={index} src={category.catImg}></img></Link>
             )
-
           })
         }
       </div>

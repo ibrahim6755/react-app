@@ -3,6 +3,12 @@
     background: transparent;
     font-size: 30px;
 }
+.inlineBlock{
+    display: inline-block;
+}
+.categoryImg{
+    width: 163px;
+}
 
 /*-----------------------media quiery------------------------------*/
 
