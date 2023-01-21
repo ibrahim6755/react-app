@@ -12,7 +12,7 @@ const Home = () => {
     <div className='color' style={{backgroundColor:'black'}}>
     <div className='container' >
       <Header/>
-        <Slider sliders={sliders} />
+        <Slider/>
         <Categories categories={categories} />
         <Selling products={products} />
       </div>

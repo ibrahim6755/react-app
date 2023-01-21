@@ -65,27 +65,3 @@ export const categories = [
     catImg: '/assets/imgs/cat6.png'
   }
 ]
-
-export const sliders = [
-  {
-    id: 1,
-    title: '',
-    description: '',
-    slideImg: 'assets/imgs/car1.jpg'
-
-  },
-  {
-    id: 2,
-    title: '',
-    description: '',
-    slideImg: 'assets/imgs/car2.jpg'
-
-  },
-  {
-    id: 3,
-    title: '',
-    description: '',
-    slideImg: 'assets/imgs/car3.png'
-
-  },
-]
