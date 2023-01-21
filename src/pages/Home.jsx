@@ -9,13 +9,16 @@ import { products, categories, sliders } from '../data/data'
 const Home = () => {
   return (
     <>
-      <div className='container'>
+    <div className='color' style={{backgroundColor:'black'}}>
+    <div className='container' >
       <Header/>
         <Slider sliders={sliders} />
         <Categories categories={categories} />
         <Selling products={products} />
       </div>
       <Footer />
+    </div>
+      
     </>
   )
 }

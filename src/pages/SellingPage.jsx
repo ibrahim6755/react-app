@@ -2,7 +2,7 @@ import React from 'react'
 
 const SellingPage = () => {
   return (
-    <h1>Selling</h1>
+    <h1>Top Selling</h1>
   )
 }
 
