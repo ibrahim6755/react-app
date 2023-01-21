@@ -3,9 +3,9 @@ import styles from './card.module.css'
 function Card({ product }) {
     return (
         <>
-            <div className={`h-95 w-100 ${styles.card}`}>
+            <div className={`h-95 w-100 ${styles.card} ${styles.cPointer}`}>
                 <img src={product.img} className={`card-img-top ${styles.cardImg} ${styles.cardImgHover}`} alt="..." />
-                <div className="card-body">
+                <div className="card-body" >
                     <h4 className={styles.cardTitle}>{product.title}</h4>
                     <p className={` mb-4 ${styles.cardText}`}>{product.description}</p>
                     <div className={styles.flex}>

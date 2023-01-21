@@ -15,3 +15,20 @@
     font-size: 18px;
     font-weight: 600;
 }
+.footerWrapper{
+    background-color: #1C1816;
+}
+.textDecor{
+    text-decoration: none;
+    color: #fff;
+}
+.aHover:hover{
+    color: #fff;
+}
+.listStyle{
+    list-style-type: none;
+}
+.fntweight{
+    font-weight: 700;
+    color: #fff;
+}
