@@ -9,8 +9,9 @@ import googlestore from '../../assets/img/googleStore.png'
 
 const Footer = () => {
     return (
-        <div className={styles.footerWrapper}>
-            <div className="row mt-5 py-5">
+        <div className={`${styles.footerWrapper} px-5`}>
+            <div className="content container">
+            <div className="row mt-5 py-5 ">
                 <div className={styles.socialMedia}>
                     <div className=" me-5">
                         <a href=""><img className={styles.logoImg} src={logo} alt="" /></a>
@@ -23,7 +24,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row ">
                 <div className="col-md-3">
                     <ul>
                         <li className={`${styles.listStyle} mb-2`}><h5 className={styles.fntweight}>Information</h5></li>
@@ -47,9 +48,10 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="col-md-3">
-                    <a className={`${styles.textDecor} ${styles.aHover}`} href=""><img className='mb-4' src={app} alt="" /></a>
-                    <a className={`${styles.textDecor} ${styles.aHover}`} href=""><img src={googlestore} alt="" /></a>
+                    <a className={`${styles.textDecor}`} href=""><img className='mb-4' src={app} alt="" /></a>
+                    <a className={`${styles.textDecor}`} href=""><img src={googlestore} alt="" /></a>
                 </div>
+            </div>
             </div>
         </div>
     )
