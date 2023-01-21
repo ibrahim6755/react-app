@@ -7,7 +7,7 @@ import header from '../Header/header.css'
 const Header = () => {
     return (
         <>
-            <div className="header-wrapper py-3 mb-3">
+            <div className="header-wrapper py-3 mb-3 sticky-top">
                 <div className="left-nav">
                     <div className="logo">
                         <a href=""><img src={logo} alt="" /></a>
