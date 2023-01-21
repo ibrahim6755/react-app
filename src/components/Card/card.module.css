@@ -52,6 +52,9 @@
 .cPointer{
     cursor: pointer;
 }
+.decor{
+    text-decoration: none;
+}
 /*-----------------------media quiery------------------------------*/
 @media (max-width: 991.98px){
     .card{

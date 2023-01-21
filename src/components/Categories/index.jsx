@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../Categories/categories.module.css'
+import {Link} from 'react-router-dom'
 const Categories = ({ categories }) => {
   return (
 
@@ -9,7 +10,7 @@ const Categories = ({ categories }) => {
         {
           categories.map((category, index) => {
             return (
-              <img className="col-md-2 col-sm-4 categoryImg" key={index} src={category.catImg}></img>
+             <Link to="/category"><img className="col-md-2 col-sm-4 categoryImg" key={index} src={category.catImg}></img></Link>
             )
 
           })

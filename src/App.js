@@ -1,15 +1,27 @@
 import Home from './pages/Home';
 import './App.css';
-import Header from './components/Header'
-import Footer from './components/Footer'
+import CategoryPage from './pages/CategoryPage';
+import SellingPage from './pages/SellingPage';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 function App() {
   return (
     <>
-      <div className='container'>
-        <Header />
-        <Home />
-      </div>
-      <Footer />
+    <Router>
+      <Routes>
+        <Route path='/home' element={<Home/>}/>
+        <Route path='/category' element={<CategoryPage/>}/>
+        <Route path='/top-selling' element={<SellingPage />}/>
+      </Routes>
+    </Router>
+      
+
+
+      
+      
+      
+
+
     </>
   );
 }

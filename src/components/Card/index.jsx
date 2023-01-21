@@ -1,8 +1,10 @@
 import React from "react";
 import styles from './card.module.css'
+import {Link} from 'react-router-dom'
 function Card({ product }) {
     return (
         <>
+            <Link className={styles.decor} to="/top-selling">
             <div className={`h-95 w-100 ${styles.card} ${styles.cPointer} mt-3`}>
                 <img src={product.img} className={`card-img-top ${styles.cardImg} ${styles.cardImgHover}`} alt="..." />
                 <div className="card-body" >
@@ -14,6 +16,7 @@ function Card({ product }) {
                     </div>
                 </div>
             </div>
+            </Link>
         </>
     )
     
