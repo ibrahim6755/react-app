@@ -24,11 +24,12 @@ const Header = () => {
 
                     <div className="offcanvas offcanvas-end " tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div className="offcanvas-header pt-4">
+                            <div className="canvas-content">
                             <h5 id="offcanvasRightLabel"><img className='bucket' src={bucket} alt="" /> Your Bucket</h5>
                             <button type="button" className="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"><i className="bi bi-x-lg cross fs-5"></i></button>
+                            </div>
                         </div>
                         <div className="offcanvas-body">
-
                             <div className="no-item">
                                 <i className="bi bi-cart3 cart"></i>
                                 <h5>You havent added any items in bucket yet</h5>

@@ -65,7 +65,6 @@
     border: none;
     background-color: #48413e52;
 }
-
 .right-nav button.register-btn {
     background-color: red;
     color: #fff;
@@ -142,9 +141,18 @@
     display: block;
 }
 
-.btn-check:focus+.btn,
-.btn:focus {
+.btn-check:focus+.btn,.btn:focus {
     outline: 0;
+    box-shadow: none;
+}
+.canvas-content{
+display: flex;
+align-items: baseline;
+justify-content: space-between;
+width: 100%;
+}
+.btn-close:focus{
+    outline:0;
     box-shadow: none;
 }
 
