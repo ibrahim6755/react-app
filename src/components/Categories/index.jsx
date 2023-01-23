@@ -10,7 +10,7 @@ const Categories = ({ categories }) => {
         {
           categories.map((category, index) => {
             return (
-             <Link to="/category"><img className={`col-md-2 col-sm-4 ${styles.categoryImg}`} key={index} src={category.catImg}></img></Link>
+             <Link to="/category"><img className={`col-md-3 col-sm-4 col-lg-3 ${styles.categoryImg}`} key={index} src={category.catImg}></img></Link>
             )
           })
         }
