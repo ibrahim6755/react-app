@@ -2,13 +2,90 @@
   color: #D4D4D4;
   background: transparent;
   font-size: 30px;
+  position: relative;
+}
+
+.sellingHeadingAfter::after {
+  content: "";
+  display: block;
+  width: 85%;
+  height: 1px;
+  background-color: rgb(134, 134, 134);
+  margin-top: 10px;
+  position: absolute;
+  left: 15%;
+  top: 35%;
 }
 
 /***************media query************************/
+
 @media (max-width: 991.98px) {
   .sellingHeading {
     color: #D4D4D4;
     background: transparent;
     font-size: 30px;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 576.98px) {
+  .sellingHeadingAfter::after {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .sellingHeadingAfter::after {
+    content: "";
+    display: block;
+    width: 74%;
+    height: 1px;
+    background-color: rgb(134, 134, 134);
+    margin-top: 10px;
+    position: absolute;
+    left: 30%;
+    top: 35%;
+  }
+}
+
+@media (min-width: 768px) {
+  .sellingHeadingAfter::after {
+    content: "";
+    display: block;
+    width: 74%;
+    height: 1px;
+    background-color: rgb(134, 134, 134);
+    margin-top: 10px;
+    position: absolute;
+    left: 23%;
+    top: 35%;
+  }
+}
+
+@media (min-width: 992px) {
+  .sellingHeadingAfter::after {
+    content: "";
+    display: block;
+    width: 74%;
+    height: 1px;
+    background-color: rgb(134, 134, 134);
+    margin-top: 10px;
+    position: absolute;
+    left: 23%;
+    top: 35%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sellingHeadingAfter::after {
+    content: "";
+    display: block;
+    width: 85%;
+    height: 1px;
+    background-color: rgb(134, 134, 134);
+    margin-top: 10px;
+    position: absolute;
+    left: 16%;
+    top: 35%;
   }
 }

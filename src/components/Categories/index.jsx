@@ -5,7 +5,7 @@ const Categories = ({ categories }) => {
   return (
 
     <div className='categories-wrapper my-5'>
-      <h2 className={styles.categoryHeading}>Browse Categories</h2>
+      <h2 className={`${styles.categoryHeading} ${styles.categoryHeadingAfter}`}>Browse Categories</h2>
       <div className={`row px-0 py-3 mt-4 ${styles.inlineBlock}`}>
         {
           categories.map((category, index) => {

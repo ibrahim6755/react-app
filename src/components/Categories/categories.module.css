@@ -2,6 +2,19 @@
     color: #D4D4D4;
     background: transparent;
     font-size: 30px;
+    position: relative;
+}
+
+.categoryHeadingAfter::after {
+    content: "";
+    display: block;
+    width: 76%;
+    height: 1px;
+    background-color: rgb(134, 134, 134);
+    margin-top: 10px;
+    position: absolute;
+    left: 24%;
+    top: 35%;
 }
 
 .inlineBlock {
@@ -21,3 +34,69 @@
         font-size: 30px;
     }
 }
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 576.98px) {
+    .categoryHeadingAfter::after {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .categoryHeadingAfter::after {
+      content: "";
+      display: block;
+      width: 55%;
+      height: 1px;
+      background-color: rgb(134, 134, 134);
+      margin-top: 10px;
+      position: absolute;
+      left: 50%;
+      top: 35%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .categoryHeadingAfter::after {
+      content: "";
+      display: block;
+      width: 60%;
+      height: 1px;
+      background-color: rgb(134, 134, 134);
+      margin-top: 10px;
+      position: absolute;
+      left: 38%;
+      top: 35%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .categoryHeadingAfter::after {
+      content: "";
+      display: block;
+      width: 72%;
+      height: 1px;
+      background-color: rgb(134, 134, 134);
+      margin-top: 10px;
+      position: absolute;
+      left: 28%;
+      top: 35%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .categoryHeadingAfter::after {
+      content: "";
+      display: block;
+      width: 76%;
+      height: 1px;
+      background-color: rgb(134, 134, 134);
+      margin-top: 10px;
+      position: absolute;
+      left: 24%;
+      top: 35%;
+    }
+  }

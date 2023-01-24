@@ -5,7 +5,7 @@ import Card from '../Card'
 const Selling = ({ products }) => {
   return (
     <div className='selling-wrapper'>
-      <h2 className={styles.sellingHeading}>Top Selling</h2>
+      <h2 className={`${styles.sellingHeading} ${styles.sellingHeadingAfter}`}>Top Selling</h2>
       <div className="row px-0 py-2 mt-4">
         {
           products.map((product, index) => {
