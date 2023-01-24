@@ -65,6 +65,7 @@
     border: none;
     background-color: #48413e52;
 }
+
 .right-nav button.register-btn {
     background-color: red;
     color: #fff;
@@ -141,41 +142,45 @@
     display: block;
 }
 
-.btn-check:focus+.btn,.btn:focus {
+.btn-check:focus+.btn,
+.btn:focus {
     outline: 0;
     box-shadow: none;
 }
-.canvas-content{
-display: flex;
-align-items: baseline;
-justify-content: space-between;
-width: 100%;
+
+.canvas-content {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
 }
-.btn-close:focus{
-    outline:0;
+
+.btn-close:focus {
+    outline: 0;
     box-shadow: none;
 }
 
 /*-----------------------media quiery------------------------------*/
-@media (max-width: 991.98px){
+@media (max-width: 991.98px) {
 
-    .left-nav{
+    .left-nav {
         display: flex;
         align-items: center;
     }
+
     .left-nav .logo img {
         cursor: pointer;
         width: 90%;
     }
+
     .header-wrapper {
         display: block;
         background-color: #000;
     }
-    
-.right-nav {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-}
 
+    .right-nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}

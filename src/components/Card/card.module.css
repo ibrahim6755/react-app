@@ -1,40 +1,47 @@
-.card{
+.card {
     border: 2px;
     border-radius: 14px;
     padding: 12px;
     background-color: #1C1816;
     color: #fff;
 }
-.h-95{
+
+.h-95 {
     height: 95%;
 }
-.cardText{
+
+.cardText {
     color: #D4D4D4;
     background: transparent;
     text-align: justify;
     font-size: 0.9rem;
 }
- .cardTitle{
+
+.cardTitle {
     background: transparent;
     font-weight: 700;
 }
-.cardImg{
+
+.cardImg {
     width: 100%;
     display: block;
     overflow-clip-margin: content-box;
     overflow: clip;
     transition: transform 0.6s ease-in-out;
 }
-.cardImgHover:hover{
-    transform: scale(1.07,1.07);
+
+.cardImgHover:hover {
+    transform: scale(1.07, 1.07);
     width: 100%;
 }
-.flex{
+
+.flex {
     display: flex;
     align-items: center;
-    justify-content:baseline;
+    justify-content: baseline;
 }
-.cardBucket{
+
+.cardBucket {
     color: #fff;
     background-color: #E4002B;
     font-weight: 700;
@@ -45,19 +52,22 @@
     border-radius: 8px;
 }
 
-.cardBucketHover:hover{
+.cardBucketHover:hover {
     color: #fff;
     background-color: #8d001a;
 }
-.cPointer{
+
+.cPointer {
     cursor: pointer;
 }
-.decor{
+
+.decor {
     text-decoration: none;
 }
+
 /*-----------------------media quiery------------------------------*/
-@media (max-width: 991.98px){
-    .card{
+@media (max-width: 991.98px) {
+    .card {
         border: 2px;
         border-radius: 14px;
         padding: 4px;

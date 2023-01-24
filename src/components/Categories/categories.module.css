@@ -1,19 +1,21 @@
-.categoryHeading{
+.categoryHeading {
     color: #D4D4D4;
     background: transparent;
     font-size: 30px;
 }
-.inlineBlock{
+
+.inlineBlock {
     display: inline-block;
 }
-.categoryImg{
+
+.categoryImg {
     width: 163px;
 }
 
 /*-----------------------media quiery------------------------------*/
 
-@media (max-width: 991.98px){
-    .categoryHeading{
+@media (max-width: 991.98px) {
+    .categoryHeading {
         color: #D4D4D4;
         background: transparent;
         font-size: 30px;

@@ -6,7 +6,7 @@ import pickup from '../../assets/img/pickup.png'
 import header from '../Header/header.css'
 const Header = () => {
     return (
-        
+
         <>
             <div className="header-wrapper py-3 mb-3 sticky-top">
                 <div className="left-nav">
@@ -25,8 +25,8 @@ const Header = () => {
                     <div className="offcanvas offcanvas-end " tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div className="offcanvas-header pt-4">
                             <div className="canvas-content">
-                            <h5 id="offcanvasRightLabel"><img className='bucket' src={bucket} alt="" /> Your Bucket</h5>
-                            <button type="button" className="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"><i className="bi bi-x-lg cross fs-5"></i></button>
+                                <h5 id="offcanvasRightLabel"><img className='bucket' src={bucket} alt="" /> Your Bucket</h5>
+                                <button type="button" className="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"><i className="bi bi-x-lg cross fs-5"></i></button>
                             </div>
                         </div>
                         <div className="offcanvas-body">
