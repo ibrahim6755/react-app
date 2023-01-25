@@ -25,5 +25,34 @@
 }
 .input{
     padding: 27px 12px 10px;
-    width: 330px;
+    width: 350px;
+    border: none;
+    border-radius: 6px;
+    background-color: #343434;
+    
+}
+.input::placeholder{
+    color: #fff;
+}
+.inputafter::after{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    border-bottom: 2px solid #E4002B;
+    pointer-events: none;
+}
+
+.login {
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border: 0;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 350px;
 }

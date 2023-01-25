@@ -18,9 +18,9 @@ const SignupPage = () => {
             <div className="col-md-4">
               <div className={styles.form}>
               <h2 className={styles.welcome}>Welcome !</h2>
-              <input className={`my-2 p-1 ${styles.input}`} type="text" />
-              <input className={`my-2 p-1 ${styles.input}`} type="text" />
-              <button></button>
+              <input className={` my-2 p-1 py-2 px-3 ${styles.input} ${styles.inputafter}`} type="text" name='name' placeholder='Name'/>
+              <input className={` my-2 p-1 py-2 px-3 ${styles.input} ${styles.inputafter}`} type="text" name='contact' aria-label='phone number' placeholder='+92 |' />
+              <button className={`${styles.login} my-3 p-1 py-2 px-3`}>Login</button>
               <h5>or login with</h5>
               <a href=""><img src="" alt="" /></a>
               </div>
