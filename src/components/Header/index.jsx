@@ -4,9 +4,9 @@ import deliveryLogo from '../../assets/img/delivery.png'
 import bucket from '../../assets/img/bucket.png'
 import pickup from '../../assets/img/pickup.png'
 import header from '../Header/header.css'
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
-
         <>
             <div className="header-wrapper py-3 mb-3 sticky-top">
                 <div className="left-nav">
@@ -37,7 +37,7 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <button className='register-btn ms-3 p-1 py-2 px-3'>Register/Sign in</button>
+                    <Link to='/sign-up' className='register-btn ms-3 p-1 py-2 px-3'>Register/Sign in</Link>
                 </div>
             </div>
 

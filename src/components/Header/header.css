@@ -4,7 +4,6 @@
     justify-content: space-between;
     background-color: #000;
 }
-
 .left-nav {
     display: flex;
     align-items: center;
@@ -66,13 +65,14 @@
     background-color: #48413e52;
 }
 
-.right-nav button.register-btn {
+.right-nav a.register-btn {
     background-color: red;
     color: #fff;
     font-weight: 700;
     font-size: 16px;
     border: 0;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .right-nav button.cart {

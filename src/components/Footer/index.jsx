@@ -15,13 +15,13 @@ const Footer = () => {
                 <div className="row mt-5 py-5 ">
                     <div className={styles.socialMedia}>
                         <div className=" me-5">
-                            <Link to=""><img className={styles.logoImg} src={logo} alt="" /></Link>
+                            <a href='#'><img className={styles.logoImg} src={logo} alt="" /></a>
                         </div>
                         <div className={` ms-4 ${styles.icons}`}>
                             <p className={styles.findUsTxt}>Find us on</p>
-                            <Link to=""><img className={styles.w46} src={you} alt="" /></Link>
-                            <Link to=""><img className={` ${styles.w46} ${styles.mX}`} src={insta} alt="" /></Link>
-                            <Link to=""><img className={styles.w46} src={face} alt="" /></Link>
+                            <a href='https://www.youtube.com/channel/UCg4hfdWApV0Uea6aFW7PZUg'><img className={styles.w46} src={you} alt="" /></a>
+                            <a href='https://www.instagram.com/kfcpakistanofficial/?hl=en'><img className={` ${styles.w46} ${styles.mX}`} src={insta} alt="" /></a>
+                            <a href='https://www.facebook.com/KFCPakistan/'><img className={styles.w46} src={face} alt="" /></a>
                         </div>
                     </div>
                 </div>
