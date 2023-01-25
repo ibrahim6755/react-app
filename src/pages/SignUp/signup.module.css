@@ -50,7 +50,8 @@
     text-decoration: none;
     width: 350px;
 }
-.h5{
+
+.h5 {
     color: #fff;
     text-align: center;
     font-size: small;
@@ -58,7 +59,8 @@
     display: block;
     position: relative;
 }
-.a{
+
+.a {
     width: 24px;
     cursor: pointer;
     height: 24px;
@@ -67,5 +69,5 @@
     user-select: none;
     border-radius: 50%;
     background-color: #ffffff;
-   
+
 }
