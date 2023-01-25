@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <div className={`${styles.footerWrapper} px-5`}>
             <div className="content container">
-                <div className="row mt-5 py-5 ">
+                <div className="row mt-3 py-5 ">
                     <div className={styles.socialMedia}>
                         <div className=" me-5">
                             <a href='#'><img className={styles.logoImg} src={logo} alt="" /></a>
