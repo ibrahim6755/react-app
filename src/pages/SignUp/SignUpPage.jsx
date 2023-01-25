@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../SignUp/signup.module.css'
 import Header from '../../components/Header'
 import gif from '../../assets/img/login.gif'
+import googicon from '../../assets/img/googicon.svg'
 
 const SignupPage = () => {
   return (
@@ -21,8 +22,8 @@ const SignupPage = () => {
               <input className={` my-2 p-1 py-2 px-3 ${styles.input} ${styles.inputafter}`} type="text" name='name' placeholder='Name'/>
               <input className={` my-2 p-1 py-2 px-3 ${styles.input} ${styles.inputafter}`} type="text" name='contact' aria-label='phone number' placeholder='+92 |' />
               <button className={`${styles.login} my-3 p-1 py-2 px-3`}>Login</button>
-              <h5>or login with</h5>
-              <a href=""><img src="" alt="" /></a>
+              <h5 className={`${styles.h5} ${styles.h5bf} mt-3`}>or login with</h5>
+              <a className={styles.a} href=""><img className={styles.googleicon} src={googicon} alt="" /></a>
               </div>
             </div>
           </div>
