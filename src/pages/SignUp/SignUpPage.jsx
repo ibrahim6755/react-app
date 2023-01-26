@@ -18,7 +18,7 @@ const SignupPage = () => {
       name: Yup.string().min(3, 'Please provide atleast 3 characters')
         .max(20, 'Long names are not allowed')
         .required('Name cannot be Empty'),
-      contact: Yup.number().required('Please provide Number').min(11)
+      contact: Yup.number().required('Please provide Number')
 
     }),
     onSubmit: (values) => {
@@ -47,7 +47,7 @@ const SignupPage = () => {
                 <p style={{ color: 'red' }}>{touched.contact && errors.contact ? errors.contact : null}</p>
                 <button className={`${styles.login} my-3 p-1 py-2 px-3`} onSubmit={handleSubmit}>Login</button>
                 <h5 className={`${styles.h5} ${styles.h5bf} mt-3`}>or login with</h5>
-                <a className={styles.a} href=""><img className={styles.googleicon} src={googicon} alt="" /></a>
+                <div className={styles.div}><a className={styles.a} href=""><img className={`${styles.googleicon} ${styles.aimg}`} src={googicon} alt="" /></a></div>
               </div>
             </div>
           </div>

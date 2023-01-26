@@ -61,13 +61,21 @@
 }
 
 .a {
-    width: 24px;
+    width: 44px;
+    height: 44px;
+    font-size: larger;
     cursor: pointer;
-    height: 24px;
-    padding: 12px;
-    box-shadow: 0px 0px 5px rgb(0 0 0 / 40%);
-    user-select: none;
+    padding: 6px;
+    background-color: #fff;
     border-radius: 50%;
-    background-color: #ffffff;
 
+}
+.aimg{
+    width: 30px;
+}
+.div{
+    display: flex;
+    justify-content:center ;
+    padding-left: 100px;
+    margin-top: 18px;
 }
