@@ -50,8 +50,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className={`col-md-3 col-sm-6 ${styles.download}`}>
-                        <a className={`${styles.textDecor}`} href=""><img className='mb-4' src={app} alt="" /></a>
-                        <a className={`${styles.textDecor}`} href=""><img src={googlestore} alt="" /></a>
+                        <Link className={`${styles.textDecor}`} href=""><img className='mb-4' src={app} alt="" /></Link>
+                        <Link className={`${styles.textDecor}`} href=""><img src={googlestore} alt="" /></Link>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ const Header = () => {
             <div className="header-wrapper py-3 mb-3 sticky-top">
                 <div className="left-nav">
                     <div className="logo">
-                        <a href=""><img src={logo} alt="" /></a>
+                        <Link to='/'><img src={logo} alt="" /></Link>
                     </div>
                     <button className=' delivery-btn text-uppercase  ms-3 p-1 py-2 px-3'><img src={deliveryLogo} alt="" /> delivery</button>
                     <button className=' pickup-btn text-uppercase  p-1 py-2 px-3'> <img src={pickup} alt="" /> pickup</button>
