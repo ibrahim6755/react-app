@@ -11,7 +11,7 @@ const CategoryPage = () => {
         <div className="container">
           <Header />
           <SecondaryNav />
-          <Everyday/>
+          <Everyday />
         </div>
       </div>
     </>
