@@ -1,0 +1,22 @@
+.ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listStyle{
+    list-style-type: none;
+    background-color: red;
+    border-radius: 8px;
+}
+.listStyle:active{
+    background-color: red;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.textDecor{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}.textDecorhover:hover{
+    color: #fff;
+}
