@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../components/Header'
 import SecondaryNav from '../../components/secondNav'
+import EverydayValue from '../../components/EverydayValue'
 
 const EverydayPage = () => {
   return (
@@ -9,6 +10,7 @@ const EverydayPage = () => {
   <div className="container">
   <Header/>
   <SecondaryNav/>
+  <EverydayValue/>
   </div>
   </div>
   
