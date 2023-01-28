@@ -5,7 +5,7 @@ export let products = [
     description: 'Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun',
     price: 250,
     stock: 10,
-    img: '/assets/imgs/cd1.jpg'
+    img: '/assets/imgs/cd1.jpg',
   },
   {
     id: 2,
@@ -33,86 +33,18 @@ export let products = [
   },
 ]
 
-
-export let everyday = [
-  {
-    id: 1,
-    title: 'Krunch Burger',
-    description: 'Crunchy chicken same seed bun',
-    price: 250,
-    stock: 10,
-    img: '/assets/imgs/cd1.jpg'
-  },
-  {
-    id: 2,
-    title: 'Krunch Burger',
-    description: 'Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun',
-    price: 350,
-    stock: 10,
-    img: '/assets/imgs/cd2.jpg'
-  },
-  {
-    id: 2,
-    title: 'Krunch Burger',
-    description: 'Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun',
-    price: 350,
-    stock: 10,
-    img: '/assets/imgs/cd2.jpg'
-  },
-  {
-    id: 2,
-    title: 'Krunch Burger',
-    description: 'Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun',
-    price: 350,
-    stock: 10,
-    img: '/assets/imgs/cd2.jpg'
-  },
-  {
-    id: 2,
-    title: 'Krunch Burger',
-    description: 'Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun',
-    price: 350,
-    stock: 10,
-    img: '/assets/imgs/cd2.jpg'
-  },
-  {
-    id: 2,
-    title: 'Krunch Burger',
-    description: 'Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun',
-    price: 350,
-    stock: 10,
-    img: '/assets/imgs/cd2.jpg'
-  },
-  {
-    id: 2,
-    title: 'Krunch Burger',
-    description: 'Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun',
-    price: 350,
-    stock: 10,
-    img: '/assets/imgs/cd2.jpg'
-  },
-  {
-    id: 2,
-    title: 'Krunch Burger',
-    description: 'Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun',
-    price: 350,
-    stock: 10,
-    img: '/assets/imgs/cd2.jpg'
-  },
-]
-
 export const categories = [
   {
     id: 1,
     title: '',
     catImg: '/assets/imgs/cat1.jpg',
-    link:'/everyday-value'
+    link:'/EverydayPage'
   },
   {
     id: 2,
     title: '',
     catImg: '/assets/imgs/cat2.png',
-    link:'/ala carte & combos'
+    link:'/AlaCartComboPage'
   },
   {
     id: 3,
