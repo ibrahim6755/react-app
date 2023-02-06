@@ -38,36 +38,30 @@ export const categories = [
     id: 1,
     title: '',
     catImg: '/assets/imgs/cat1.jpg',
-    link:'/EverydayPage'
   },
   {
     id: 2,
     title: '',
     catImg: '/assets/imgs/cat2.png',
-    link:'/AlaCartComboPage'
   },
   {
     id: 3,
     title: '',
     catImg: '/assets/imgs/cat3.jpg',
-    link:'/signature boxes'
   },
   {
     id: 4,
     title: '',
     catImg: '/assets/imgs/cat4.jpg',
-    link:'/sharing'
   },
   {
     id: 5,
     title: '',
     catImg: '/assets/imgs/cat5.jpg',
-    link:'snacks & beverages'
   },
   {
     id: 6,
     title: '',
     catImg: '/assets/imgs/cat6.png',
-    link:'midnight'
   }
 ]
